@@ -7,7 +7,23 @@
 
 <h1 align="center">🏯 如意 Admin</h1>
 <p align="center"><strong>如意国风科技蓝 · 玻璃拟态 · 粒子网络 · 3D 交互</strong></p>
-<p align="center">AI 驱动的现代化后台管理系统 — 前后端分离，开箱即用的通用模板</p>
+<p align="center">一个基于 React + Vite 的现代化后台管理系统模板，包含仪表盘、监控卡片、图表与玻璃拟态视觉体验。</p>
+
+<p align="center">
+  <a href="https://github.com/CNBJHh/Program2">GitHub 仓库</a> ·
+  <a href="http://localhost:3000">本地预览</a>
+</p>
+
+---
+
+## 📌 项目说明
+
+本项目是一个以“科技蓝 + 国风视觉”为主题的前端管理后台示例，重点展示：
+
+- 玻璃拟态界面设计与深色主题视觉表达
+- 仪表盘卡片、趋势图表与告警列表等常见业务展示
+- 基于 Vite 的快速开发体验与 React 组件化结构
+- 可继续扩展为真实的 Gin 后端接口接入模板
 
 ---
 
@@ -54,19 +70,19 @@
 
 ```bash
 # 1. 进入前端目录
-cd RuyiGinReactAdmin/frontend
+cd RuyiGinReactAdmin-main/frontend
 
 # 2. 安装依赖
 npm install
 
-# 3. 启动开发服务器 (自动打开浏览器)
-npm run dev
+# 3. 启动开发服务器
+npm run dev -- --host 0.0.0.0
 
 # 4. 生产构建
 npm run build
 ```
 
-浏览器访问 **http://localhost:3000**
+启动成功后，浏览器访问 **http://localhost:3000**。
 
 ---
 
