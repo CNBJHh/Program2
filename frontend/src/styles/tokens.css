@@ -1,0 +1,157 @@
+/* ============================================================
+   如意国风科技蓝 — Design Token System v2.0
+   Ruyi Tech Blue · Glassmorphism · OKLCH-inspired
+   ============================================================ */
+
+:root {
+  /* ═══════════════════════════════════════════════════════════
+     BRAND PALETTE — 如意国风科技蓝
+     ═══════════════════════════════════════════════════════════ */
+
+  /* Primary: Tech Blue */
+  --blue-50: #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-300: #93c5fd;
+  --blue-400: #60a5fa;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
+  --blue-950: #172554;
+
+  /* Accent: Ruyi Gold (如意金) */
+  --gold-50: #fffbeb;
+  --gold-100: #fef3c7;
+  --gold-200: #fde68a;
+  --gold-300: #fcd34d;
+  --gold-400: #d4a745;
+  --gold-500: #b8860b;
+  --gold-600: #92640a;
+  --gold-700: #77510a;
+
+  /* Accent: Cyan/Tech */
+  --cyan-300: #67e8f9;
+  --cyan-400: #22d3ee;
+  --cyan-500: #06b6d4;
+  --cyan-600: #0891b2;
+
+  /* Accent: Indigo */
+  --indigo-400: #818cf8;
+  --indigo-500: #6366f1;
+  --indigo-600: #4f46e5;
+
+  /* Semantic Status */
+  --status-success: #10b981;
+  --status-success-bg: rgba(16, 185, 129, 0.12);
+  --status-warning: #f59e0b;
+  --status-warning-bg: rgba(245, 158, 11, 0.12);
+  --status-danger: #ef4444;
+  --status-danger-bg: rgba(239, 68, 68, 0.12);
+  --status-info: #3b82f6;
+  --status-info-bg: rgba(59, 130, 246, 0.12);
+
+  /* ═══════════════════════════════════════════════════════════
+     BACKGROUND SYSTEM
+     ═══════════════════════════════════════════════════════════ */
+  --bg-deepest: #0a0e1a;         /* 最深底色 */
+  --bg-deep: #0f1525;            /* 深层背景 */
+  --bg-base: #131a2e;            /* 主背景 */
+  --bg-raised: rgba(20, 28, 55, 0.65);  /* 浮起面板 */
+  --bg-surface: rgba(25, 35, 68, 0.55); /* 表面卡片 */
+
+  /* ═══════════════════════════════════════════════════════════
+     GLASSMORPHISM TOKENS
+     ═══════════════════════════════════════════════════════════ */
+  --glass-bg: rgba(18, 25, 50, 0.45);
+  --glass-bg-heavy: rgba(18, 25, 50, 0.72);
+  --glass-bg-light: rgba(18, 25, 50, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.16);
+  --glass-border-active: rgba(37, 99, 235, 0.4);
+  --glass-blur: 18px;
+  --glass-blur-heavy: 28px;
+  --glass-saturate: 160%;
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+  --glass-shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.45);
+
+  /* ═══════════════════════════════════════════════════════════
+     TEXT HIERARCHY
+     ═══════════════════════════════════════════════════════════ */
+  --text-primary: rgba(255, 255, 255, 0.92);
+  --text-secondary: rgba(255, 255, 255, 0.64);
+  --text-tertiary: rgba(255, 255, 255, 0.40);
+  --text-disabled: rgba(255, 255, 255, 0.22);
+  --text-accent: #60a5fa;
+  --text-gold: #d4a745;
+
+  /* ═══════════════════════════════════════════════════════════
+     BORDERS & RADIUS
+     ═══════════════════════════════════════════════════════════ */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-default: rgba(255, 255, 255, 0.10);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --border-accent: rgba(37, 99, 235, 0.3);
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-2xl: 24px;
+
+  /* ═══════════════════════════════════════════════════════════
+     SHADOWS
+     ═══════════════════════════════════════════════════════════ */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.3);
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.35);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.4);
+  --shadow-lg: 0 16px 40px rgba(0,0,0,0.5);
+  --shadow-xl: 0 24px 56px rgba(0,0,0,0.55);
+  --shadow-glow-blue: 0 0 24px rgba(37, 99, 235, 0.25);
+  --shadow-glow-gold: 0 0 20px rgba(212, 167, 69, 0.2);
+
+  /* ═══════════════════════════════════════════════════════════
+     TYPOGRAPHY
+     ═══════════════════════════════════════════════════════════ */
+  --font-family: 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB',
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 15px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 36px;
+
+  /* ═══════════════════════════════════════════════════════════
+     LAYOUT
+     ═══════════════════════════════════════════════════════════ */
+  --header-height: 64px;
+  --sidebar-width: 252px;
+
+  /* ═══════════════════════════════════════════════════════════
+     ANIMATION / EASING
+     ═══════════════════════════════════════════════════════════ */
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-back: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-slow: 400ms;
+  --duration-slower: 600ms;
+
+  /* ═══════════════════════════════════════════════════════════
+     GRADIENT PRESETS (reused across components)
+     ═══════════════════════════════════════════════════════════ */
+  --gradient-bg: linear-gradient(135deg, #0a0e1a 0%, #0f1b3d 30%, #131a2e 60%, #0d1a30 100%);
+  --gradient-header: linear-gradient(180deg, rgba(15,21,37,0.95) 0%, rgba(15,21,37,0.7) 100%);
+  --gradient-accent: linear-gradient(135deg, #2563eb 0%, #6366f1 50%, #06b6d4 100%);
+  --gradient-gold: linear-gradient(135deg, #d4a745 0%, #fcd34d 50%, #b8860b 100%);
+  --gradient-card: linear-gradient(135deg, rgba(25,35,68,0.5) 0%, rgba(20,28,50,0.3) 100%);
+  --gradient-glow: radial-gradient(circle at center, rgba(37,99,235,0.15) 0%, transparent 70%);
+}
